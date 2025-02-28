@@ -1,2 +1,3 @@
-# hotspot-visualizer
-A VS Code extension for visualizing JIT hotspots 
+# HotSpot Visualizer
+
+A VS Code extension for visualizing JIT hot spots.

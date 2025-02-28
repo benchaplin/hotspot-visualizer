@@ -1,0 +1,8 @@
+vscode-extension/node_modules/
+
+# Ignore Gradle project-specific cache directory
+java-profiler/.gradle/
+
+# Ignore Gradle build output directory
+java-profiler/build/
+java-profiler/app/build/
