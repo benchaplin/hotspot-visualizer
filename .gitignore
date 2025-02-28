@@ -6,3 +6,5 @@ java-profiler/.gradle/
 # Ignore Gradle build output directory
 java-profiler/build/
 java-profiler/app/build/
+
+java-profiler/.idea/
