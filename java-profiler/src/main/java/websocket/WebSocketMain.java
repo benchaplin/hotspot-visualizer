@@ -19,7 +19,7 @@ public class WebSocketMain {
             container.setMaxTextMessageSize(128 * 1024);
 
             // Map a request URI to a WebSocket endpoint
-            container.addMapping("/ws/hello", (rq, rs, cb) -> new HelloWorldWebSocket());
+            container.addMapping("/ws/run", (rq, rs, cb) -> new RunnerEndpoint());
         });
         contextHandler.setHandler(webSocketHandler);
 
